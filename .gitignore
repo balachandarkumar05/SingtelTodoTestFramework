@@ -1,0 +1,5 @@
+/src/test/resources/webdrivers/*.exe
+/testreports
+/.idea
+/*.iml
+/target
