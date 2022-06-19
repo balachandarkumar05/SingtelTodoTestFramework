@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeClass;
 
 @CucumberOptions(
         features = "src/test/resources/features",
-        tags = "@addItems",
+        tags = "@todo",
         glue = {"classpath:com.singtel.todo.steps"},
         plugin = {"pretty", "html:target/cucumber.html", "json:target/cucumber.json"}
 )
