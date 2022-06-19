@@ -13,5 +13,5 @@ Steps to execute Test
       1. Add new TestNG run configuration and update class parameter as "com.singtel.todo.CucumberRunner"
       2. Once added, select the configuration and click on Run button
    2. Command Line:
-      1. mvn clean install test -Dtest="com.singtel.todo.CucumberRunner"
+      1. mvn clean install test -Dtest=com.singtel.todo.CucumberRunner
 8. After each execution, report will be generated in testreports folder. Please open "overview-features.html" to see summary of execution

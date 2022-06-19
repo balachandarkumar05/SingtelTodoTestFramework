@@ -3,7 +3,7 @@ Feature: Add Todo Items
 
   Background:
     Given user launches Todo application
-    
+
   Scenario: Home Page Validation
 
     Then I should see header as "todos"
